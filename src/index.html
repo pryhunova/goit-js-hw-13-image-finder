@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pixabay search</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    </head>
+  <body>
+
+   <div class="container">
+    <form class="search-form js-search-form flexbox" id="search-form">
+      <label for="searchQuery" class="sr-only"></label>
+      <input type="text" class="form-input" name="query" id="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit" class="btn">Search</button>
+    </form>
+    
+    <ul class="gallery"></ul>
+
+    <button type="button" class="btn" data-action="load-more">
+    <span class="spinner is-hidden" role="status" aria-hidden="true"></span>
+
+      <span class="label btn">Load more</span>
+    </button>
+</div>
+
+<script src="./index.js"></script>
+  </body>
+</html>

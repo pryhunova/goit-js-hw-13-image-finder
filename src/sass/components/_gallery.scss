@@ -1,0 +1,52 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: calc(100vw - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.gallery-item {
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 1fr;
+  grid-area: 'gallery-item';
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stats {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stats-item {
+  padding: 10px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.6);
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+p.stats-item {
+  color: rgb(62, 65, 68);
+  margin: 0;
+  padding: 0;
+  //   border-radius: 5px;
+}
