@@ -15,4 +15,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"../templates/galleryCardTpl.hbs":"xE1N","../js/apiService":"eQwa","../js/components/load-more-btn":"RFle"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/galleryMarkup");
 },{"./sass/main.scss":"clu1","./js/galleryMarkup":"xObA"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.233c8cbd.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.233c8cbd.js.map
